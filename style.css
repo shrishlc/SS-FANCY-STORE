@@ -114,5 +114,19 @@ footer {
   }
 }
 
+.banner-container {
+    text-align: center; /* इमेजलाई बीचमा ल्याउँछ */
+    padding: 20px 0;    /* माथि र तल अलिकति खाली ठाउँ छोड्छ */
+}
+
+.center-banner {
+    max-width: 100%;    /* मोबाइलमा बाहिर जाँदैन */
+    height: auto;       /* फोटोको आकार बिग्रिन दिँदैन */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px; /* कुना अलिकति गोलो बनाउन (ऐच्छिक) */
+}
+
 
 
