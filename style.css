@@ -116,7 +116,8 @@ footer {
 
 .banner-container {
     text-align: center; /* इमेजलाई बीचमा ल्याउँछ */
-    padding: 20px 0;    /* माथि र तल अलिकति खाली ठाउँ छोड्छ */
+    padding: 20px 0; /* माथि र तल अलिकति खाली ठाउँ छोड्छ */
+    margin: 10px 
 }
 
 .center-banner {
