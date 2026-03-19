@@ -127,6 +127,46 @@ footer {
     margin-right: auto;
     border-radius: 8px; /* कुना अलिकति गोलो बनाउन (ऐच्छिक) */
 }
+<style>
+.ss-fancy-slider {
+    position: relative;
+    width: 100%;       /* मोबाइलको चौडाई अनुसार मिल्छ */
+    max-width: 500px;  /* धेरै ठूलो नबनाउन ५००px राखिएको */
+    height: 180px;     /* तपाईँले भने जस्तै ठिक्कको उचाई */
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 10px; /* कुनाहरू अलिकति गोलो बनाउन */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* अट्र्याक्टिभ देखाउन स्याडो */
+}
 
+.fade-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* फोटो नबिग्रियोस् भनेर */
+    opacity: 0;
+    animation: simpleFade 6s infinite; /* ६ सेकेन्डको एउटा साइकल */
+}
+
+/* पहिलो फोटोको पालो */
+.img1 {
+    animation-delay: 0s;
+}
+
+/* दोस्रो फोटो ३ सेकेन्ड पछि आउँछ */
+.img2 {
+    animation-delay: 3s;
+}
+
+@keyframes simpleFade {
+    0% { opacity: 0; }
+    10% { opacity: 1; }  /* १ सेकेन्डमा बिस्तारै देखिने */
+    45% { opacity: 1; }  /* केही बेर देखिरहने */
+    55% { opacity: 0; }  /* १ सेकेन्डमा बिस्तारै हराउने */
+    100% { opacity: 0; }
+}
+</style>
 
 
