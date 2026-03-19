@@ -145,7 +145,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* फोटो नबिग्रियोस् भनेर */
+    object-fit: scale down ; /* फोटो नबिग्रियोस् भनेर */
     opacity: 0;
     animation: simpleFade 6s infinite; /* ६ सेकेन्डको एउटा साइकल */
 }
